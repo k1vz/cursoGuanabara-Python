@@ -1,0 +1,5 @@
+name = input("Digite seu nome completo: ")
+print("Maiúsculo: {}." .format(name.upper()))
+print("Minúsculo: {}." .format(name.lower()))
+print("Tamanho sem espaços: {}." .format(len(name.replace(" ", ""))))
+print("Quantas letras o primeiro nome tem: {}." .format(len(name.split()[0])))
