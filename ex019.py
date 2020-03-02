@@ -7,4 +7,4 @@ a4 = input("Digite o nome do quarto aluno: ")
 
 alunos = [a1, a2, a3, a4]
 x = choice(alunos)
-print("O fdp escolido foi o {}." .format(x))
+print("O fdp escolhido foi o {}." .format(x))

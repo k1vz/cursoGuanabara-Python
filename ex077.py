@@ -5,4 +5,5 @@ for i in sorted(words):
     for n in i:
         if n.lower() in 'aeiou':
             print(n, end=' ')
+
     print('')
